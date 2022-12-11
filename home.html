@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murthy Raju</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Nav -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Murthy_Raju_Logo-removebg-preview.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FullStack Developer</p>
+                <h1>Hi, I'm <span>Murthy</span><br>Raju From Eluru</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- about -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/passphoto.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm a B.Tech Pursuing Student. To work with a Company this appreciates innovation so that I can enhance my knowledge and skills to give my best growth of our company. I learnt programming languages like Python,C, C++, Java and etc.., through YouTube. So I Can Learn new things easily without consuming more time and I can work at any environment.
+                    Organized and dependable candidate successful at managing multiple priorities with a positive attitude. Willingness to take on added responsibilities to meet team goals. To seek and maintain full-time position that offers professional challenges utilizing interpersonal skills, excellent time management and problem-solving skills. Detail-oriented, organized and meticulous employee. Works at fast pace to meet tight deadlines. Enthusiastic team player ready to contribute to company success.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Fullack Development</span><br>HTML,CSS,JS,Python,MongoDB,SQL,React,RestAPI</li>
+                        <li><span>Web Development</span><br>HTML,CSS,JS,DBMS,MySQL</li>
+                        <li><span>Front-End Development</span><br>HTML,CSS,JS</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022- Current</span><br>Oasis Infobyte Internship</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020-2024</span><br>B.Tech - CSE - Pursuing</li>
+                        <li><span>2018-2020</span><br>Intermediate (M.P.C) - 8.5 CGPA</li>
+                        <li><span>2018</span><br>S.S.C - 8.3 CGPA</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- service -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>FullStack Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quos nemo eveniet temporibus dolore voluptatibus dignissimos suscipit cum quae animi!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-chrome"></i>
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quos nemo eveniet temporibus dolore voluptatibus dignissimos suscipit cum quae animi!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-html5"></i>
+                <h2>Front-End Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quos nemo eveniet temporibus dolore voluptatibus dignissimos suscipit cum quae animi!</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/landing page.png">
+                <div class="layer">
+                    <h3>Landing Page</h3>
+                    <p>This Website Shows Basic Web Page Using HTML and CSS</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/portfolio-landing-page.png">
+                <div class="layer">
+                    <h3>Portifolio</h3>
+                    <p>This Website Shows Resume of a Person</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/convert-fahrenheit-celsius.jpg">
+                <div class="layer">
+                    <h3>Fahrenheit to Celsius Converter</h3>
+                    <p>This Website Coverts Fahrenheit to Celsius.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- Contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-envelope"></i> murthyraju.dasari1@hotmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-envelope"></i> murthydasari1@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 7032622918</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/murthy-raju-dasari/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/murthyrajud"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="images/Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2022 Murthy Raju. </p>
+    </div>
+</div>
+
+<!-- JS -->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbySVrNTnJ5HwR6lRO8On2mPcOZ6eHfYpZSLXElezW2z4IcPgzBF2LES5Vkl6F6PRe1a/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
